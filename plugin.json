@@ -6,11 +6,11 @@
     "keywords"              : ["theme", "Ceres", "template"],
     "type"                  :"theme",
     "require"               : [],
-    "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
+    "serviceProvider"       :"TslTheme\\Providers\\TslThemeServiceProvider",
     "dataProviders"         :
     [
         {
-            "key"           :"Theme\\Containers\\ThemeContainer",
+            "key"           :"TslTheme\\Containers\\TslThemeContainer",
             "name"          :"Tierschutzlinge light",
             "description"   :"adapted Ceres base theme"
         }
